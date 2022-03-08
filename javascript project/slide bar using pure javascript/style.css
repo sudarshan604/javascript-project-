@@ -1,0 +1,79 @@
+
+body{
+    background-color: rgb(27, 27, 85);
+}
+
+
+img{
+    width: 400px;
+    height: 200px;
+   object-fit: cover;
+}
+
+button{
+   border-radius: 50%;
+   cursor: pointer;
+   color:white;
+   font-weight: 900;
+   background: none;
+    border:0;
+    font-size:30px;
+    width: 40px;
+    height: 40px;
+
+
+}
+.button{
+    text-align: center;
+}
+.button .button-round{
+     display: inline-block;
+    text-decoration: none;   
+    background-color:black;
+     width: 20px;
+     height: 20px;
+    margin-right: 10px;
+    margin-top: 10px;    
+}
+.carousel{
+    width: 400px;
+   position: relative;
+   margin: 0 auto; 
+  margin-top: 150px;
+
+}
+.carousel-action{
+     margin-bottom:0;
+    display: flex;
+    position:absolute;
+    width: 100%;
+    justify-content: space-between;
+    top:50%;
+  transform: translateY(-70%);   
+}
+
+.carousel-item,
+.carousel-item-hidden{
+    display: none;
+}
+.carousel-item-visible
+{
+    display: block;
+    animation: visible 0.5s;
+}
+.carousel-next{
+ margin-left: 4px;
+}
+.button .button-target{
+    background-color:#80921a;
+}
+
+@keyframes visible{
+    0%{
+        opacity: 0;
+    } 
+100%{
+   opacity: 1;
+}
+} 
+    
