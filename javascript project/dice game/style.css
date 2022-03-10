@@ -1,0 +1,60 @@
+body{
+    background-color: aliceblue;
+}
+.container{
+    background-color: white;
+    max-width: 500px;
+    padding: 40px;
+    text-align: center;
+  margin: 0 auto;
+}
+h1{
+  font-weight: 900; 
+ font-size: 2.5rem;
+  margin-top: 0;
+}
+h2{
+   margin-top: 2px;
+    font-size: 2rem;
+  font-weight: 600;
+ 
+}
+.scorebox{
+   display: flex;
+    justify-content: center;
+  padding-bottom: 4px;
+
+}
+.box{
+    border-style: none;
+    background-color: pink;
+   
+    padding: 70px;
+    border-radius: 20px;
+  font-size: 50px;
+ font-weight: 700;
+}
+.scorebox1{
+    margin-right:50px;
+}
+.scorebox2{
+    margin-left: 70px;
+}
+.deactive{
+    display: none;
+}
+
+#roll,#reset{
+    border-style: none;
+    background-color: hotpink;
+   padding: 15px 35px;
+   border-radius: 8px;
+  margin-top: 60px;
+ font-size: 20px;
+color: #fff;
+}
+
+
+
+
+
